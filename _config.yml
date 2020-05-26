@@ -1,7 +1,7 @@
 # Setup
 title: Blog
 tagline: The Shini
-url: https://shini.github.io
+url: https://d-shinigami.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -9,7 +9,7 @@ permalink: pretty
 pages_list:
   О блоге: '/about'
   Архив записей: '/archive'
-  Лента: '/atom.xml'
+#  Лента: '/atom.xml'
 
 
 # Gems
@@ -42,7 +42,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: Shini
-  url: https://shini.github.io
+  url: https://d-shinigami.github.io
   email: d.sh.gami@gmail.com
 
 # Custom vars
