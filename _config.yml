@@ -1,16 +1,23 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
+title: Blog
+tagline: The Shini
+url: https://shini.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
 
+pages_list:
+  О блоге: '/about'
+  Архив записей: '/archive'
+  Лента: '/atom.xml'
+
+
 # Gems
-plugins:
+plugins_dir:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Optimize Jekyll
 exclude:
@@ -26,6 +33,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
@@ -33,9 +41,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Shini
+  url: https://shini.github.io
+  email: d.sh.gami@gmail.com
 
 # Custom vars
 version: 3.0.0
